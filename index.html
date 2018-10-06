@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TO-DO</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+  <div class="full-content">
+ <div class="top-header">
+   <span>To-Do</span>
+   <div class="search-bar">
+   <button type="submit" class="no-outline">
+    <i class="fa fa-search "></i>
+   </button>
+   <input type="text" class="no-outline" placeholder="Search">
+   </div>
+ </div>
+ <div class="contents">
+ <nav class="side-nav-bar">
+   <ul>
+  <li class="menu">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </li>
+  <li>
+    <i class="fa fa-sun-o" aria-hidden="true"></i>
+    <span class="nav-values">My Day</span>
+  </li>
+  <li>
+    <i class="fa fa-star-o" aria-hidden="true"></i>
+    <span class="nav-values">Important</span>
+  </li>
+  <li>
+    <i class="fa fa-calendar" aria-hidden="true"></i>
+    <span class="nav-values">Planned</span>
+  </li>
+  <li>
+    <i class="fa fa-home" aria-hidden="true"></i>
+    <span class="nav-values">Tasks</span>
+  </li>
+  <li class="my-list">
+    <i class="fa fa-list-ul" aria-hidden="true"></i>
+    <span class="nav-values">My List</span>
+  </li>
+  <li class="new-list">
+    <i class="fa fa-plus " aria-hidden="true"></i>
+    <span class="nav-values">New List</span>
+  </li>
+</ul>
+ </nav>
+ <div class="page-content box-shadow-right">
+  <div class="list-content">
+    <span>My List</span><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+    <div class="sort">
+      <i class="fa fa-exchange fa-rotate-90" aria-hidden="true"></i>
+      <span>Sort</span>
+    </div>
+  </div>
+  <div class="task-list">
+    <div class="task box-shadow">
+      <i class="fa fa-circle-o pointer" aria-hidden="true"></i>
+      <span> Learning JavaScript </span>
+      <i class="fa fa-star-o float-r pointer" aria-hidden="true"></i>
+    </div>
+    <div class="add-new-task box-shadow">
+      <i class="fa fa-plus pointer" aria-hidden="true"></i>
+      <span> Add a Task </span>
+    </div>
+    <div class="add-task display-none box-shadow">
+      <a> <i class="fa fa-circle-o color"></i>
+       <input type="text" placeholder="Add a task" >
+         <button class="starred change-color">ADD</button>
+      </a>
+      </div>
+      <div class="empty box-shadow">
+      </div>
+  </div>
+ </div>
+ <div class="task-content">
+   <div class="task-name box-shadow-all">
+     <i class="fa fa-check-circle" aria-hidden="true"></i>
+     <span> Learning JavaScript </span>
+     <i class="fa fa-star-o float-r pointer" aria-hidden="true"></i>
+   </div>
+   <div class="add-to-day box-shadow-all">
+     <i class="fa fa-sun-o" aria-hidden="true"></i>
+     <span>Add to My Day</span>
+   </div>
+   <div class="task-options box-shadow-all">
+     <div class="option box-shadow">
+       <i class="fa fa-clock-o" aria-hidden="true"></i>
+       <span>Remind Me</span>
+     </div>
+     <div class="option box-shadow">
+       <i class="fa fa-calendar" aria-hidden="true"></i>
+       <span>Add Due date</span>
+     </div>
+     <div class="option box-shadow">
+       <i class="fa fa-repeat" aria-hidden="true"></i>
+       <span>Repeat</span>
+     </div>
+   </div>
+   <input type="text" class="box-shadow-all" placeholder="Add a note">
+   <div class="bottom-option border-top">
+     <i class="fa fa-chevron-right pointer" aria-hidden="true"></i>
+     <span>Completed Today</span>
+     <i class="fa fa-trash-o float-r pointer" aria-hidden="true"></i>
+   </div>
+ </div>
+</div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>

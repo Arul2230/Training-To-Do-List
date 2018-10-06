@@ -1,0 +1,284 @@
+body {
+  margin: 0px;
+  font-family: Arial;
+}
+.no-outline{
+  outline: none;
+}
+.box-shadow{
+  box-shadow: 0px 1px #E4E4E4;
+}
+.box-shadow-right{
+  box-shadow: 1px 0px #E4E4E4;
+}
+.box-shadow-all{
+  box-shadow:1px 1px 1px 1px #E4E4E4;
+}
+.border-top{
+  border-top: 1px solid #E4E4E4;
+}
+.float-r{
+  float: right;
+}
+.pointer{
+  cursor: pointer;
+}
+.display-none{
+  display: none;
+}
+.full-content {
+  height: 100vh;
+
+.top-header{
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #1879D5;
+  color:#ffffff;
+
+  span{
+    font-weight: bold;
+  }
+ .search-bar{
+  display: inline-block;
+  margin-left: 30%;
+  background-color: #C0DDFF;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width:30%;
+  border-radius: 4px;
+button{
+  background-color: transparent;
+  color: #55709C;
+  display: inline-block;
+  border: 0px;
+  margin: 0px;
+  font-size: 17px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+i{
+  transform:scaleX(-1);
+}
+input{
+  background-color: transparent;
+  display: inline-block;
+  border: 0px;
+}
+}
+.search-bar:hover{
+  background-color: white;
+  color: blue;
+}
+}
+::placeholder {
+  padding-left: 5px;
+  color: #55709C;
+  font-size: 15px;
+  font-weight: 500;
+}
+.contents{
+  display: inline-flex;
+  height: 100%;
+  width: 100%;
+.side-nav-bar{
+  background-color: #F4F4F4;
+  width: 20%;
+  box-shadow: 1px 0px #F7F7F7;
+  transition: width 0.5s;
+  ul{
+    padding-top: 20px;
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+  }
+  .menu{
+    color:#636A86;
+    padding-bottom: 30px;
+  }
+  li{
+    padding-left: 20px;
+    padding-top: 10px;
+   padding-bottom: 10px;
+   i{
+     padding-right: 5px;
+     color: #757575;
+   }
+   span{
+     color:#676769;
+     font-weight: 500;
+   }
+  }
+  .my-list{
+    margin-top: 20px;
+    background-color: #ECECEC;
+    i,span{
+    color:#2b7dca;
+  }
+  span{
+    font-weight: bold;
+  }
+  }
+  .new-list{
+    i,span{
+    color:#7e89b5;
+  }
+  }
+}
+.page-content{
+  width: 80%;
+  float: right;
+  display: inline-block;
+  padding: 15px;
+  .list-content{
+    height: 10%;
+    padding: 10px;
+      span{
+        color: #2b7dca;
+      }
+      i{
+        color: #757575;
+      }
+      span{
+        font-size: 20px;
+        padding-right: 10px;
+        font-weight: bold;
+
+      }
+    .sort{
+      display: inline-block;
+      float: right;
+      i,span{
+        font-size: 15px;
+        font-weight: lighter;
+        color: #7e89b5;
+      }
+    }
+  }
+  .task-list{
+    height: 90%;
+    .task{
+      color:#757575;
+      padding: 20px;
+      height: 20px;
+     i{
+       padding-right: 10px;
+     }
+    }
+    .add-new-task{
+      height: 20px;
+      color:#2b7dca;
+      padding: 20px;
+      i{
+        padding-right: 10px;
+      }
+    }
+    .empty{
+      height: 60px;
+    }
+    .add-task {
+      padding: 20px;
+input {
+outline: none;
+border: none;
+margin-left: 3%;
+}
+::placeholder{
+font-size: 17px;
+}
+.color {
+color: #87aefb;
+font-size: 24px;
+}
+button{
+border: none;
+outline: none;
+background-color: transparent;
+cursor: pointer;
+}
+.starred{
+float: right;
+margin-right: 3%;
+color:gray;
+}
+.change-color{
+color: #87aefb;
+}
+}
+  }
+}
+.task-content{
+  width:20%;
+  float: right;
+  display: none;
+  padding: 15px;
+  background-color: #F5F5F5;
+  transition: width 0.5s;
+  .task-name{
+    height: 80px;
+    background-color: white;
+    margin-top: 2px;
+    padding: 10px;
+    width: 275px;
+    i{
+      width: 5%;
+      color: #2b7dca;
+    }
+    span{
+      padding-left: 10px;
+      width: 90%;
+    }
+  }
+  .add-to-day{
+    margin-top: 15px;
+    padding: 10px;
+    padding-top: 20px;
+    height: 40px;
+    width: 275px;
+    background-color: white;
+   color: #676769;
+   span{
+     padding-left: 10px;
+   }
+
+  }
+  .task-options{
+    height: 140px;
+    background-color: WHITE;
+    width: 275px;
+    margin-top: 15px;
+    padding-right: 20px;
+  .option{
+    height: 27px;
+    color: #676769;
+    padding-top: 20px;
+    i{
+      padding-left: 10px;
+      padding-right: 10px;
+      box-shadow: none;
+    }
+  }
+  }
+  input[type="text"]{
+    height: 75px;
+    width: 275px;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+  }
+  ::placeholder {
+    color: #676769;
+  }
+  .bottom-option{
+    position: absolute;
+    bottom: 1%;
+    color: #676769;
+    padding-top: 10px;
+    span{
+      padding-right: 70px;
+      padding-left: 70px;
+    }
+  }
+}
+}
+}
