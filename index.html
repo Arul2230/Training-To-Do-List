@@ -39,29 +39,25 @@
     <i class="fa fa-home" aria-hidden="true"></i>
     <span class="nav-values">Tasks</span>
   </li>
-  <li class="my-list">
-    <i class="fa fa-list-ul" aria-hidden="true"></i>
-    <span class="nav-values">My List</span>
-  </li>
+  <div class="my-list">
+  </div>
   <li class="new-list">
     <i class="fa fa-plus " aria-hidden="true"></i>
-    <span class="nav-values">New List</span>
+    <input type="text" maxlength="25" placeholder="List Name" class="list-input display-none">
+    <span class="new-list-value nav-values">New List</span>
   </li>
 </ul>
  </nav>
  <div class="page-content box-shadow-right">
   <div class="list-content">
-    <span>My List</span><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+    <span class="list-name">My List</span><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
     <div class="sort">
       <i class="fa fa-exchange fa-rotate-90" aria-hidden="true"></i>
       <span>Sort</span>
     </div>
   </div>
   <div class="task-list">
-    <div class="task box-shadow">
-      <i class="fa fa-circle-o pointer" aria-hidden="true"></i>
-      <span> Learning JavaScript </span>
-      <i class="fa fa-star-o float-r pointer" aria-hidden="true"></i>
+    <div class="new-tasks">
     </div>
     <div class="add-new-task box-shadow">
       <i class="fa fa-plus pointer" aria-hidden="true"></i>
@@ -69,19 +65,14 @@
     </div>
     <div class="add-task display-none box-shadow">
       <a> <i class="fa fa-circle-o color"></i>
-       <input type="text" placeholder="Add a task" >
+       <input type="text" class="task-value" required placeholder="Add a task">
          <button class="starred change-color">ADD</button>
       </a>
-      </div>
-      <div class="empty box-shadow">
       </div>
   </div>
  </div>
  <div class="task-content">
    <div class="task-name box-shadow-all">
-     <i class="fa fa-check-circle" aria-hidden="true"></i>
-     <span> Learning JavaScript </span>
-     <i class="fa fa-star-o float-r pointer" aria-hidden="true"></i>
    </div>
    <div class="add-to-day box-shadow-all">
      <i class="fa fa-sun-o" aria-hidden="true"></i>
@@ -111,5 +102,5 @@
 </div>
 </div>
 </body>
-<script src="script.js"></script>
+<script src="index.js"></script>
 </html>

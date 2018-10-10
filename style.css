@@ -35,6 +35,14 @@ body {
   display: none;
 }
 
+.display-block {
+  display: block;
+}
+
+.display-inlineblock {
+  display: inline-block;
+}
+
 .full-content {
   height: 100vh;
 }
@@ -119,18 +127,23 @@ body {
   color: #676769;
   font-weight: 500;
 }
-.full-content .contents .side-nav-bar .my-list {
-  margin-top: 20px;
-  background-color: #ECECEC;
-}
 .full-content .contents .side-nav-bar .my-list i, .full-content .contents .side-nav-bar .my-list span {
   color: #2b7dca;
 }
 .full-content .contents .side-nav-bar .my-list span {
   font-weight: bold;
 }
+.full-content .contents .side-nav-bar .new-list .list-input {
+  outline: none;
+}
 .full-content .contents .side-nav-bar .new-list i, .full-content .contents .side-nav-bar .new-list span {
-  color: #7e89b5;
+  color: #2b7dca;
+}
+.full-content .contents .small-side-nav {
+  width: 4%;
+}
+.full-content .contents .small-side-nav span {
+  display: none;
 }
 .full-content .contents .page-content {
   width: 80%;
@@ -139,7 +152,7 @@ body {
   padding: 15px;
 }
 .full-content .contents .page-content .list-content {
-  height: 10%;
+  height: 25px;
   padding: 10px;
 }
 .full-content .contents .page-content .list-content span {
@@ -160,7 +173,7 @@ body {
 .full-content .contents .page-content .list-content .sort i, .full-content .contents .page-content .list-content .sort span {
   font-size: 15px;
   font-weight: lighter;
-  color: #7e89b5;
+  color: #4069e3;
 }
 .full-content .contents .page-content .task-list {
   height: 90%;
@@ -172,6 +185,7 @@ body {
 }
 .full-content .contents .page-content .task-list .task i {
   padding-right: 10px;
+  color: #4069E3;
 }
 .full-content .contents .page-content .task-list .add-new-task {
   height: 20px;
@@ -186,18 +200,19 @@ body {
 }
 .full-content .contents .page-content .task-list .add-task {
   padding: 20px;
+  color: #A9A9A9;
 }
 .full-content .contents .page-content .task-list .add-task input {
   outline: none;
   border: none;
-  margin-left: 3%;
+  margin-left: 10px;
 }
 .full-content .contents .page-content .task-list .add-task ::placeholder {
   font-size: 17px;
+  color: #A9A9A9;
 }
 .full-content .contents .page-content .task-list .add-task .color {
-  color: #87aefb;
-  font-size: 24px;
+  font-size: 17px;
 }
 .full-content .contents .page-content .task-list .add-task button {
   border: none;
@@ -207,11 +222,12 @@ body {
 }
 .full-content .contents .page-content .task-list .add-task .starred {
   float: right;
-  margin-right: 3%;
-  color: gray;
 }
 .full-content .contents .page-content .task-list .add-task .change-color {
   color: #87aefb;
+}
+.full-content .contents .big-page-content {
+  width: 96%;
 }
 .full-content .contents .task-content {
   width: 20%;
@@ -284,6 +300,9 @@ body {
 .full-content .contents .task-content .bottom-option span {
   padding-right: 70px;
   padding-left: 70px;
+}
+.full-content .contents .display-block {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
